@@ -1,0 +1,7 @@
+﻿\s{\r\s*.*\n.*\n.*} | {get; set;}
+/// <remarks /> | 
+(public\s\w*\s(\w*)\s\{\sget.*}) | [XmlRoot(ElementName="$2")]\n$1
+(public\sclass\s(.*)\s{) | [XmlRoot(ElementName="$2")]\n$1
+(public\s.*\[\]\s(.*)\s{ get; set; }) | [XmlArray("$2")]\n$1
+(public\s(.*)\[\]) | public List<$2> 
+int (\w*)_Id | int $1Id

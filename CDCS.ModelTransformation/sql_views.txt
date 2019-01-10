@@ -1,0 +1,42 @@
+﻿Topic
+
+SELECT        dbo.Sectors.Name_FR AS Sector, Topics_1.Name_FR AS T1, Topics_2.Name_FR AS T2, Topics_3.Name_FR AS T3, dbo.Topics.Name_FR AS T4, dbo.Categories.Name_FR AS Category
+FROM            dbo.SectorCategoriesHierarchies LEFT OUTER JOIN
+                         dbo.Categories ON dbo.SectorCategoriesHierarchies.CategoryId = dbo.Categories.Id LEFT OUTER JOIN
+                         dbo.Topics ON dbo.SectorCategoriesHierarchies.Topic4Id = dbo.Topics.Id LEFT OUTER JOIN
+                         dbo.Topics AS Topics_1 ON dbo.SectorCategoriesHierarchies.Topic1Id = Topics_1.Id LEFT OUTER JOIN
+                         dbo.Topics AS Topics_3 ON dbo.SectorCategoriesHierarchies.Topic3Id = Topics_3.Id LEFT OUTER JOIN
+                         dbo.Topics AS Topics_2 ON dbo.SectorCategoriesHierarchies.Topic2Id = Topics_2.Id LEFT OUTER JOIN
+                         dbo.Sectors ON dbo.SectorCategoriesHierarchies.SectorId = dbo.Sectors.Id
+
+Detailed Topics 
+SELECT        TOP (100) PERCENT dbo.SectorCategoriesHierarchies.SectorId, dbo.SectorCategoriesHierarchies.SortOrder, dbo.Sectors.Name_FR AS Sector, dbo.SectorCategoriesHierarchies.Topic1Id, 
+                         dbo.SectorCategoriesHierarchies.Topic1_SortOrder, Topics_1.Name_FR AS T1, dbo.SectorCategoriesHierarchies.Topic2Id, dbo.SectorCategoriesHierarchies.Topic2_SortOrder, Topics_2.Name_FR AS T2, 
+                         dbo.SectorCategoriesHierarchies.Topic3Id, dbo.SectorCategoriesHierarchies.Topic3_SortOrder, Topics_3.Name_FR AS T3, dbo.SectorCategoriesHierarchies.Topic4Id, dbo.SectorCategoriesHierarchies.Topic4_SortOrder, 
+                         dbo.Topics.Name_FR AS T4, dbo.Categories.Name_FR AS Category
+FROM            dbo.SectorCategoriesHierarchies LEFT OUTER JOIN
+                         dbo.Categories ON dbo.SectorCategoriesHierarchies.CategoryId = dbo.Categories.Id LEFT OUTER JOIN
+                         dbo.Topics ON dbo.SectorCategoriesHierarchies.Topic4Id = dbo.Topics.Id LEFT OUTER JOIN
+                         dbo.Topics AS Topics_1 ON dbo.SectorCategoriesHierarchies.Topic1Id = Topics_1.Id LEFT OUTER JOIN
+                         dbo.Topics AS Topics_3 ON dbo.SectorCategoriesHierarchies.Topic3Id = Topics_3.Id LEFT OUTER JOIN
+                         dbo.Topics AS Topics_2 ON dbo.SectorCategoriesHierarchies.Topic2Id = Topics_2.Id LEFT OUTER JOIN
+                         dbo.Sectors ON dbo.SectorCategoriesHierarchies.SectorId = dbo.Sectors.Id
+ORDER BY dbo.SectorCategoriesHierarchies.SortOrder, Sector, dbo.SectorCategoriesHierarchies.Topic1_SortOrder, T1, dbo.SectorCategoriesHierarchies.Topic2_SortOrder, T2, dbo.SectorCategoriesHierarchies.Topic3_SortOrder, T3, 
+                         dbo.SectorCategoriesHierarchies.Topic4_SortOrder, T4, Category
+
+Accrediations
+SELECT        dbo.Accreditations.Id, dbo.Accreditations.Name_FR, dbo.Accreditations.AccreditorId, dbo.Accreditors.Name_FR AS Expr1
+FROM            dbo.Accreditors LEFT OUTER JOIN
+                         dbo.Accreditations ON dbo.Accreditors.Id = dbo.Accreditations.AccreditorId
+
+KeywordCategories
+SELECT        dbo.CategoryStrings.Discriminator AS Language, dbo.CategoryStrings.TextValue AS Keyword, dbo.Categories.Name_FR, dbo.Categories.Name_NL, dbo.CategoryStrings.Id, dbo.CategoryStrings.RefId
+FROM            dbo.CategoryStrings LEFT OUTER JOIN
+                         dbo.Categories ON dbo.CategoryStrings.RefId = dbo.Categories.Id AND dbo.CategoryStrings.RefId = dbo.Categories.Id
+
+OrganisationText
+SELECT        dbo.Organisations.Id, dbo.Organisations.Name_FR AS Organisation_FR, dbo.Organisations.Name_NL AS Organisation_NL, dbo.Categories.Name_FR AS Category_FR, dbo.Categories.Name_NL AS Category_NL, 
+                         dbo.Organisations.Mission_FR, dbo.Organisations.Mission_NL, dbo.Organisations.Activity_FR, dbo.Organisations.Activity_NL, dbo.Organisations.Comment_FR, dbo.Organisations.Comment_NL, 
+                         dbo.Categories.Description_FR AS CategoryDescription_FR, dbo.Categories.Description_NL AS CategoryDescription_NL
+FROM            dbo.Organisations INNER JOIN
+                         dbo.Categories ON dbo.Organisations.Id = dbo.Categories.Id

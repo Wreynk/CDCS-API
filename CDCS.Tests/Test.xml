@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<updateRequest schemaLocation="http://psb.bric.brussels/bruso/messages/organisation/v1 ../xsd/1.0.0/messages/updateOrganisations_v1.0.xsd">
+  <organisationList>
+    <organisation>
+      <id>266</id>
+      <FICHE>000266</FICHE>
+      <INFOR>18/05/16</INFOR>
+      <NMOFFNL>ATELIER DE RECHERCHE ET D'ACTION URBAINES</NMOFFNL>
+      <NMOFFFR>ATELIER DE RECHERCHE ET D'ACTION URBAINES</NMOFFFR>
+      <NMUSENL>ARAU</NMUSENL>
+      <NMUSEFR>ARAU</NMUSEFR>
+      <NMSERVNL />
+      <NMSERVFR />
+      <TEL_NL>02/219.33.45</TEL_NL>
+      <TEL>02/219.33.45</TEL>
+      <FAX>02/219.86.75</FAX>
+      <EMAIL_NL>info@arau.org</EMAIL_NL>
+      <EMAIL>info@arau.org</EMAIL>
+      <HTTP_NL>http://www.arau.org</HTTP_NL>
+      <HTTP>http://www.arau.org</HTTP>
+      <HTTPNL2 />
+      <HTTP2 />
+      <URLNL />
+      <URLFR />
+      <ACTIVNL>
+        - Permanente denkoefeningen over de evolutie van de stad
+        - Ontwikkelen van verschillende middelen om de inwoners, de politiek en administratief verantwoordelijken en de economische actoren bewust te maken van de specifieke uitdagingen in Brussel: geleide bezoeken, 'stadsscholen', de Middagen van het urbanisme, studiereizen, enz.
+      </ACTIVNL>
+      <ACTIVFR>
+        - Action permanente de réflexion sur l'évolution de la ville
+        - Développement de divers moyens pour sensibiliser les habitants et les responsables politiques, administratifs ainsi que les agents économiques aux enjeux urbains spécifiques à Bruxelles : visites guidées, 'écoles urbaines', les Midis de l'urbanisme, voyages d'études, etc.
+      </ACTIVFR>
+      <PUBLIEK />
+      <BENEF />
+      <PERMANNL>Van maandag tot vrijdag van 9 uur tot 17 uur</PERMANNL>
+      <PERMANFR>Du lundi au vendredi de 9h à 17h</PERMANFR>
+      <TIJDSCHR />
+      <REVUE />
+      <OPMERK />
+      <REMARQUE />
+      <PM_RP>0415.552.849</PM_RP>
+      <DOEL>L'association a pour but de rendre effectif le "droit à la ville" par une prise de parole, indépendante et responsable, qui affirme/soutient le droit de toute personne de vivre au coeur de l'héritage urbain et de contribuer à son développement matériel, culturel et politique. Ses lignes d'action sont guidées par le respect du principe selon lequel tout acte d'urbanisme doit avoir pour effet d'améliorer la qualité de vie de l'ensemble de la population et de la population la plus démunie en particulier. Elle défend ou promeut l'augmentation de sa capacité d'habiter en ville grace à la construction de logements neufs, la rénovation des logements anciens et la réaffectation d'autre patrimoine existant, dans tous les quartiers et à l'occasion de toute opération immobilière privée ou publique; organisation de colloques, introduction de recours devant les différentes juridictions, formation et d'éducation permanente, voyage d'études...</DOEL>
+      <BUT>L'association a pour but de rendre effectif le "droit à la ville" par une prise de parole, indépendante et responsable, qui affirme/soutient le droit de toute personne de vivre au coeur de l'héritage urbain et de contribuer à son développement matériel, culturel et politique. Ses lignes d'action sont guidées par le respect du principe selon lequel tout acte d'urbanisme doit avoir pour effet d'améliorer la qualité de vie de l'ensemble de la population et de la population la plus démunie en particulier. Elle défend ou promeut l'augmentation de sa capacité d'habiter en ville grace à la construction de logements neufs, la rénovation des logements anciens et la réaffectation d'autre patrimoine existant, dans tous les quartiers et à l'occasion de toute opération immobilière privée ou publique; organisation de colloques, introduction de recours devant les différentes juridictions, formation et d'éducation permanente, voyage d'études...</BUT>
+      <PUBLIBS>http://www.ejustice.just.fgov.be/cgi_tsv/tsv_rech.pl?language=nl&amp;btw=0415552849&amp;liste=Liste</PUBLIBS>
+      <PUBLIMB>http://www.ejustice.just.fgov.be/cgi_tsv/tsv_rech.pl?language=fr&amp;btw=0415552849&amp;liste=Liste</PUBLIMB>
+      <BRUSOFR>https://social.brussels/organisation/266</BRUSOFR>
+      <BRUSONL>https://sociaal.brussels/organisation/266</BRUSONL>
+      <ERKAND>Association d'éducation permanente - Franse Gemeenschap</ERKAND>
+      <AGRAUTR>Association d'éducation permanente - Communauté française</AGRAUTR>
+      <OLDNAMNL />
+      <OLDNAMFR />
+      <CREE />
+      <DEEL />
+      <ANTENNE />
+      <MOTHER />
+      <FAX_NL>02/219.86.75</FAX_NL>
+      <INT_SOC />
+      <addresseAdres>
+        <ADRESNL>Adolphe Maxlaan</ADRESNL>
+        <ADRESFR>Boulevard Adolphe Max</ADRESFR>
+        <ADNUM>55</ADNUM>
+        <BNUM />
+        <POSTNL>1000 BRUSSEL</POSTNL>
+        <POSTFR>1000 BRUXELLES</POSTFR>
+        <ZIP>1000</ZIP>
+        <GEMEENTE>BRUSSEL</GEMEENTE>
+        <COMMUNE>BRUXELLES</COMMUNE>
+        <ADOPM />
+        <ADREM />
+        <WIJK>MARTELAARS</WIJK>
+        <QUARTIER>MARTYRS</QUARTIER>
+        <STATCODE>21004A35-</STATCODE>
+        <STATNMNL>AD. MAXLAAN</STATNMNL>
+        <STATNMFR>AD. MAX (BOULEVARD)</STATNMFR>
+        <XCOORD>149059.72</XCOORD>
+        <YCOORD>171414.36</YCOORD>
+        <WGS84LAT>50.853124529336185</WGS84LAT>
+        <WGS84LON>4.3553991497645494</WGS84LON>
+        <WQ_CODE>4</WQ_CODE>
+      </addresseAdres>
+      <statutstatuut>922</statutstatuut>
+
+      <LANGSTAT>FR</LANGSTAT>
+      <ACCES />
+      <AANMELD />
+
+      <offrLingTaalAnb>739</offrLingTaalAnb>
+
+      <offrLingTaalAnb>740</offrLingTaalAnb>
+
+      <offrLingTaalAnb>745</offrLingTaalAnb>
+
+      <offrLingTaalAnb>765</offrLingTaalAnb>
+
+      <natOffreHulpwijz>737</natOffreHulpwijz>
+
+      <natOffreHulpwijz>736</natOffreHulpwijz>
+
+      <zoneActionWerkgebied>268</zoneActionWerkgebied>
+
+      <CATEG>532</CATEG>
+
+      <CATEG>529</CATEG>
+    </organisation>
+    <organisation>
+      <id>1</id>
+      <FICHE>000001</FICHE>
+      <INFOR>11/04/18</INFOR>
+      <NMOFFNL>HOMEGRADE</NMOFFNL>
+      <NMOFFFR>HOMEGRADE</NMOFFFR>
+      <NMUSENL />
+      <NMUSEFR />
+      <NMSERVNL />
+      <NMSERVFR />
+      <TEL_NL>02/219.40.60</TEL_NL>
+      <TEL>02/219.40.60</TEL>
+      <FAX>02/219.35.90</FAX>
+      <EMAIL_NL>info@homegrade.brussels</EMAIL_NL>
+      <EMAIL>info@homegrade.brussels</EMAIL>
+      <HTTP_NL>http://www.homegrade.brussels</HTTP_NL>
+      <HTTP>http://www.homegrade.brussels</HTTP>
+      <HTTPNL2 />
+      <HTTP2 />
+      <URLNL />
+      <URLFR />
+      <ACTIVNL>
+        Dienst voor de begeleiding van particulieren die hun woning in het Brussels Gewest wensen te verbeteren:
+        - informatie over geluidsisolatie, energie, huisvesting, renovatie, patrimonium en stedenbouw
+        - huisbezoeken om de energiefactuur te helpen verlagen en renovatieprojecten te helpen verwezenlijken
+        - begeleiding bij stappen die ondernomen moeten worden op technisch en administratief vlak en wegwijs maken in de bestaande financiële tegemoetkomingen door adviseurs
+      </ACTIVNL>
+      <ACTIVFR>
+        Service qui accompagne les particuliers qui désirent améliorer leur logement en Région bruxelloise :
+        - Information en matière d'isolation acoustique, d'énergie, de logement, de rénovation, de patrimoine et d'urbanisme
+        - Visites à domicile pour aider à réduire la facture énergétique et à concrétiser les projets de rénovation
+        - Accompagnement dans les démarches tant sur le plan technique qu'administratif et information sur les aides financières existantes par des conseillers
+      </ACTIVFR>
+      <PUBLIEK>Huurders, eigenaars-bewoners, verhuurders, mede-eigenaars</PUBLIEK>
+      <BENEF>Locataires, propriétaires occupants, bailleurs et copropriétaires</BENEF>
+      <PERMANNL>
+        - Van dinsdag tot vrijdag van 10 uur tot 17 uur, zaterdag van 14 uur tot 17 uur
+        - Telefonische infolijn: van dinsdag tot vrijdag van 10 uur tot 12 uur en van 14 uur tot 16 uur
+      </PERMANNL>
+      <PERMANFR>
+        - Du mardi au vendredi de 10h à 17h, samedi de 14h à 17h
+        - Permanence téléphonique : du mardi au vendredi de 10h à 12h et de 14h à 16h
+      </PERMANFR>
+      <TIJDSCHR />
+      <REVUE />
+      <OPMERK>
+        - Gesubsidieerd door het Brussels Gewest
+        - Fusie van vzw STADSWINKEL en vzw ENERGIEHUIS
+      </OPMERK>
+      <REMARQUE>
+        - Subsidié par la Région bruxelloise
+        - Fusion de l'asbl LE CENTRE URBAIN et de l'asbl MAISON DE L'ÉNERGIE
+      </REMARQUE>
+      <PM_RP>0435.722.317</PM_RP>
+      <DOEL>
+        De vereniging heeft tot doel de volledige, neutrale, onpartijdige en gedocumenteerde informatie aan de inwoners van het Brussels Hoofdstedelijk Gewest, zonder enig onderscheid, in alle materies die rechtstreeks of onrechtstreeks en op transversale wijze raken aan hel behoud en de verbetering van het stadsmilieu en het leefklimaat in hetl Brussels Hoofdstedelijk Gewest, het duurzaam wonen, de huisvesting en de vernieuwing hiervan, de stedenbouw, de ruimtelijke ordening en het erfgoed te bevorderen. Zij coordineert en integreert de door de regering van het Brussels Hoofdstedelijk Gewest erkende verenigingen van het Netwerk Wonen in een netwerk, in het kader van de gewestelijke strategie en de daarbij behorende doelstellingen, de gemeentelijke strategische context, de kennis van de beoogde wijken, steeds met de bedoeling en de kwaliteit van de geleverde diensten te verbeteren. Zij steunt het werkingsvermogen van de verenigingen van Netwerk wonen, versterkt de mutualisering van de goede praktijken onder hen en vergemakkelijkt de samenwerking tussen de verschiilende actoren van de stadsvernieuwing, waaronder de overheid, en dit netwerk
+        Zij heeft met name als opdracht :
+        - informatieverspreiding, bewustmaking en opvoeding, raad en bijstand inzake bescherming en verbetering van hel stadsmilieu en het leefklimaat
+        - hulp aan de inwoners van het Brussels Hoofdstedelijk Gewest bij de verdediging van de collectieve belangen op het vlak van bescherming en verbetering van het stadsmilieu en hel leefklimaat
+        - het verder zetten van specifieke handelingen met hel oog op de verbetering van hel stadsmilieu en het leefklimaat in hel Brussels Hoofdstedelijk Gewest
+        - deelname aan adviescommissies en adviesverstrekking in het kader van openbare onderzoeken overontwerpplannen van de Regering voor bescherming en verbetering van het stadsmilieu en het leefklimaat
+      </DOEL>
+      <BUT>
+        L'association a pour objet:
+        - Promouvoir l'information complète, neutre, impartiale et documentée des habitants de la Région de
+        Bruxelles-Capitale, sans distinction aucune, dans toutes les matières touchant, directement ou indirectement, et
+        de façon transversale, à la défense et l'amélioration de l'environnement urbain et du cadre de vie en Région de
+        Bruxelles-Capitale en particulier concernant l'habitat durable, le logement et sa rénovation, l'urbanisme, le
+        patrimoine, la réduction de l'impact écologique au sens large des logements bruxellois en favorisant notamment
+        la réduction des consommations d'énergie, l'éco-construction, la gestion de l'eau, la qualité acoustique, la
+        réduction de la pollution intérieure, la promotion des primes à la rénovation ou à l'énergie, etc
+        - Participer de façon significative et quantifiable aux objectifs de réduction des consommations
+        énergétiques et d'émissions de gaz à effet de serre émanant du bâtiment et en particulier du logement en
+        Région de Bruxelles-Capitale
+        - Mettre en oeuvre les politiques régionales en collaboration étroite avec les administrations compétentes
+        - Mettre en réseau et coordonner les associations du Réseau Habitat agréées par le Gouvernement de la
+        Région de Bruxelles-Capitale et les acteurs locaux comme relais des activités de l'association et ce dans le
+        respect de la stratégie régionale et des objectifs y afférents, du contexte stratégique communal, de la
+        connaissance des quartiers visés et dans un souci permanent d'amélioration de la qualité du service rendu
+        - Soutenir les capacités d'action des acteurs locaux et en particulier les associations du réseau habitat,
+        renforcer entre elles la mutualisation des bonnes pratiques et faciliter l'articulation entre les différents acteurs de
+        la rénovation urbaine, dont les pouvoirs publics, et ce réseau. L'association s'adresse à tout public et peut accomplir tous les actes se rapportant directement ou
+        indirectement à toute activité favorisant la qualité de vie dans le bâti bruxellois tout en réduisant son impact sur
+        l'environnement. Pour servir son objectif, dans le respect des lignes directrices des synergies fixées dans les conventions de
+        partenariats validées par le/la ou les Ministres compétents pour les matières en lien avec l'objet social,
+        l'association se donne notamment pour missions (liste non exhaustive et non limitative) :
+        - Diffusion d'informations, sensibilisation et éducation, conseil et accompagnement en matière de
+        protection et d'amélioration de l'environnement urbain et du cadre de vie
+        - Poursuite d'actions particulières visant l'amélioration de lenvironnement urbain et du cadre de vie en
+        Région de Bruxelles-Capitale
+        - Réduction de l'impact énergétique et climatique des logements bruxellois via un accompagnement et des
+        visites à domicile ayant pour objectif de stimuler les ménages bruxellois au passage à l'acte et d'accélérer ainsi
+        le taux de rénovation
+        - Conduite d'actions diverses, à destination des propriétaires, gestionnaires et locataires de logement,
+        participant de façon significative aux objectifs de réduction des consommations énergétiques et d'émissions de
+        gaz à effet de serre en Région de Bruxelles-Capitale. Ces missions sont précisées dans le cadre d'un contrat de gestion passé avec la Région de Bruxelles
+        Capitale
+        - Accompagnement proposé par l'association sera proactif et bilingue, et d'ordre technique, administratif
+        et financier
+      </BUT>
+      <PUBLIBS>http://www.ejustice.just.fgov.be/cgi_tsv/tsv_rech.pl?language=nl&amp;btw=0435722317&amp;liste=Liste</PUBLIBS>
+      <PUBLIMB>http://www.ejustice.just.fgov.be/cgi_tsv/tsv_rech.pl?language=fr&amp;btw=0435722317&amp;liste=Liste</PUBLIMB>
+      <BRUSOFR>https://social.brussels/organisation/1</BRUSOFR>
+      <BRUSONL>https://sociaal.brussels/organisation/1</BRUSONL>
+      <ERKAND />
+      <AGRAUTR />
+      <OLDNAMNL>HOMEGRADE.BRUSSELS</OLDNAMNL>
+      <OLDNAMFR>HOMEGRADE.BRUSSELS</OLDNAMFR>
+      <CREE />
+      <DEEL />
+      <ANTENNE />
+      <MOTHER />
+      <FAX_NL>02/219.35.90</FAX_NL>
+      <INT_SOC />
+      <addresseAdres>
+        <ADRESNL>Queteletplein</ADRESNL>
+        <ADRESFR>Place Quetelet</ADRESFR>
+        <ADNUM>7</ADNUM>
+        <BNUM />
+        <POSTNL>1210 SINT-JOOST-TEN-NODE</POSTNL>
+        <POSTFR>1210 SAINT-JOSSE-TEN-NOODE</POSTFR>
+        <ZIP>1210</ZIP>
+        <GEMEENTE>SINT-JOOST-TEN-NODE</GEMEENTE>
+        <COMMUNE>SAINT-JOSSE-TEN-NOODE</COMMUNE>
+        <ADOPM />
+        <ADREM />
+        <WIJK>SINT-JOOST CENTRUM</WIJK>
+        <QUARTIER>SAINT-JOSSE CENTRE</QUARTIER>
+        <STATCODE>21014A03-</STATCODE>
+        <STATNMNL>MADOU</STATNMNL>
+        <STATNMFR>MADOU</STATNMFR>
+        <XCOORD>150013.56</XCOORD>
+        <YCOORD>171312.04</YCOORD>
+        <WGS84LAT>50.85220540427441</WGS84LAT>
+        <WGS84LON>4.368944877611759</WGS84LON>
+        <WQ_CODE>25</WQ_CODE>
+      </addresseAdres>
+      <statutstatuut>922</statutstatuut>
+
+      <LANGSTAT>FR-NL</LANGSTAT>
+      <ACCES />
+      <AANMELD />
+
+      <offrLingTaalAnb>739</offrLingTaalAnb>
+
+      <offrLingTaalAnb>740</offrLingTaalAnb>
+
+      <natOffreHulpwijz>733</natOffreHulpwijz>
+
+      <natOffreHulpwijz>736</natOffreHulpwijz>
+
+      <natOffreHulpwijz>737</natOffreHulpwijz>
+
+      <zoneActionWerkgebied>268</zoneActionWerkgebied>
+
+      <CATEG>56</CATEG>
+
+      <CATEG>456</CATEG>
+    </organisation>
+    <organisation>
+      <id>18185</id>
+      <FICHE>018185</FICHE>
+      <INFOR>11/04/18</INFOR>
+      <NMOFFNL>LES MARMOTINS</NMOFFNL>
+      <NMOFFFR>LES MARMOTINS</NMOFFFR>
+      <TEL_NL>0499/40.47.85</TEL_NL>
+      <TEL>0499/40.47.85</TEL>
+      <HTTP_NL />
+      <HTTP />
+      <ACTIVNL>Ontmoetingsruimte voor kinderen en ouderen: onthaal van kinderen tot 4 jaar vergezeld  door een ouder of naaste</ACTIVNL>
+      <ACTIVFR>
+        Lieu de rencontre enfants et parents :
+        Accueil pour les tout-petits jusqu'à l'âge de 4 ans accompagnés d'un parent ou d'un proche
+      </ACTIVFR>
+      <PUBLIEK />
+      <BENEF />
+      <PERMANNL>Dinsdag, donderdag en vrijdag van 9.30 uur tot 11.30 uur</PERMANNL>
+      <PERMANFR>Mardi, jeudi et vendredi de 9h30 à 11h30</PERMANFR>
+      <OPMERK>Initiatief van de ONE (Aexandre De Craenestraat 2 - 1030 Schaarbeek), Au fil de l'enfance ASBL, de Schaarbeekse Haard met de steun van Cap 48</OPMERK>
+      <REMARQUE>Initiative de l'ONE (rue Alexandre De Craene 2 -1030 Schaerbeek), Au fil de l'enfance ASBL, Le Foyer Schaerbeekois et soutenu par Cap 48</REMARQUE>
+      <PM_RP>0231.907.895</PM_RP>
+      <DOEL />
+      <BUT />
+      <PUBLIBS>http://www.ejustice.just.fgov.be/cgi_tsv/tsv_rech.pl?language=nl&amp;btw=0231907895&amp;liste=Liste</PUBLIBS>
+      <PUBLIMB>http://www.ejustice.just.fgov.be/cgi_tsv/tsv_rech.pl?language=fr&amp;btw=0231907895&amp;liste=Liste</PUBLIMB>
+      <BRUSOFR>https://social.brussels/organisation/18185</BRUSOFR>
+      <BRUSONL>https://sociaal.brussels/organisation/18185</BRUSONL>
+      <CREE />
+      <DEEL />
+      <ANTENNE />
+      <MOTHER />
+      <INT_SOC />
+      <addresseAdres>
+        <ADRESNL>Adolphe Marbotinstraat</ADRESNL>
+        <ADRESFR>Rue Adolphe Marbotin</ADRESFR>
+        <ADNUM>26</ADNUM>
+        <BNUM />
+        <POSTNL>1030 SCHAARBEEK</POSTNL>
+        <POSTFR>1030 SCHAERBEEK</POSTFR>
+        <ZIP>1030</ZIP>
+        <GEMEENTE>SCHAARBEEK</GEMEENTE>
+        <COMMUNE>SCHAERBEEK</COMMUNE>
+        <ADOPM />
+        <ADREM />
+        <WIJK>TERDELT</WIJK>
+        <QUARTIER>TERDELT</QUARTIER>
+        <STATCODE>21015A22-</STATCODE>
+        <STATNMNL>MARBOTIN A. STRAAT</STATNMNL>
+        <STATNMFR>MARBOTIN A. (RUE)</STATNMFR>
+        <XCOORD>151583.07</XCOORD>
+        <YCOORD>173286.5</YCOORD>
+        <WGS84LAT>50.869952478667834</WGS84LAT>
+        <WGS84LON>4.391242238676643</WGS84LON>
+        <WQ_CODE>82</WQ_CODE>
+      </addresseAdres>
+      <statutstatuut>930</statutstatuut>
+
+      <LANGSTAT>FR</LANGSTAT>
+      <ACCES />
+      <AANMELD />
+
+      <natOffreHulpwijz>736</natOffreHulpwijz>
+
+      <zoneActionWerkgebied>434</zoneActionWerkgebied>
+
+      <CATEG>258</CATEG>
+
+      <CATEG>259</CATEG>
+    </organisation>
+
+  </organisationList>
+</updateRequest>
