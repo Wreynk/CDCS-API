@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="updateRequest" targetNamespace="http://psb.bric.brussels/bruso/messages/organisation/v1" xmlns:mstns="http://psb.bric.brussels/bruso/messages/organisation/v1" xmlns="http://psb.bric.brussels/bruso/messages/organisation/v1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app1="http://psb.bric.brussels/type/bruso/organisation/v1">
+  <xs:import namespace="http://psb.bric.brussels/type/bruso/organisation/v1" schemaLocation="export_app1.xsd" />
+  <xs:element name="updateRequest" msdata:IsDataSet="true" msdata:Locale="en-US" msdata:Prefix="mes">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="app1:value" />
+        <xs:element name="organisationList" msdata:Prefix="mes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="organisation" msdata:Prefix="mes" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="app1:id" minOccurs="0" />
+                    <xs:element ref="app1:FICHE" minOccurs="0" />
+                    <xs:element ref="app1:INFOR" minOccurs="0" />
+                    <xs:element ref="app1:NMOFFNL" minOccurs="0" />
+                    <xs:element ref="app1:NMOFFFR" minOccurs="0" />
+                    <xs:element ref="app1:HTTP_NL" minOccurs="0" />
+                    <xs:element ref="app1:HTTP" minOccurs="0" />
+                    <xs:element ref="app1:ACTIVNL" minOccurs="0" />
+                    <xs:element ref="app1:ACTIVFR" minOccurs="0" />
+                    <xs:element ref="app1:PUBLIEK" minOccurs="0" />
+                    <xs:element ref="app1:BENEF" minOccurs="0" />
+                    <xs:element ref="app1:PERMANNL" minOccurs="0" />
+                    <xs:element ref="app1:PERMANFR" minOccurs="0" />
+                    <xs:element ref="app1:OPMERK" minOccurs="0" />
+                    <xs:element ref="app1:REMARQUE" minOccurs="0" />
+                    <xs:element ref="app1:PM_RP" minOccurs="0" />
+                    <xs:element ref="app1:DOEL" minOccurs="0" />
+                    <xs:element ref="app1:BUT" minOccurs="0" />
+                    <xs:element ref="app1:PUBLIBS" minOccurs="0" />
+                    <xs:element ref="app1:PUBLIMB" minOccurs="0" />
+                    <xs:element ref="app1:BRUSOFR" minOccurs="0" />
+                    <xs:element ref="app1:BRUSONL" minOccurs="0" />
+                    <xs:element ref="app1:CREE" minOccurs="0" />
+                    <xs:element ref="app1:DEEL" minOccurs="0" />
+                    <xs:element ref="app1:ANTENNE" minOccurs="0" />
+                    <xs:element ref="app1:MOTHER" minOccurs="0" />
+                    <xs:element ref="app1:INT_SOC" minOccurs="0" />
+                    <xs:element ref="app1:statutstatuut" minOccurs="0" />
+                    <xs:element ref="app1:LANGSTAT" minOccurs="0" />
+                    <xs:element ref="app1:NMUSENL" />
+                    <xs:element ref="app1:NMUSEFR" />
+                    <xs:element ref="app1:NMSERVNL" />
+                    <xs:element ref="app1:NMSERVFR" />
+                    <xs:element ref="app1:TEL_NL" />
+                    <xs:element ref="app1:TEL" />
+                    <xs:element ref="app1:FAX" />
+                    <xs:element ref="app1:EMAIL_NL" />
+                    <xs:element ref="app1:EMAIL" />
+                    <xs:element ref="app1:HTTPNL2" />
+                    <xs:element ref="app1:HTTP2" />
+                    <xs:element ref="app1:URLNL" />
+                    <xs:element ref="app1:URLFR" />
+                    <xs:element ref="app1:TIJDSCHR" />
+                    <xs:element ref="app1:REVUE" />
+                    <xs:element ref="app1:ERKAND" />
+                    <xs:element ref="app1:AGRAUTR" />
+                    <xs:element ref="app1:OLDNAMNL" />
+                    <xs:element ref="app1:OLDNAMFR" />
+                    <xs:element ref="app1:FAX_NL" />
+                    <xs:element ref="app1:addresseAdres" />
+                    <xs:element ref="app1:ACCES" />
+                    <xs:element ref="app1:AANMELD" />
+                    <xs:element ref="app1:offrLingTaalAnb" />
+                    <xs:element ref="app1:natOffreHulpwijz" />
+                    <xs:element ref="app1:agrementErken" />
+                    <xs:element ref="app1:zoneActionWerkgebied" />
+                    <xs:element ref="app1:CATEG" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LangStatList" msdata:Prefix="mes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LangStat" msdata:Prefix="mes" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="app1:id" minOccurs="0" />
+                    <xs:element ref="app1:value" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="natOffreHulpwijzList" msdata:Prefix="mes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="natOffreHulpwijz" msdata:Prefix="mes" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="app1:id" minOccurs="0" />
+                    <xs:element ref="app1:value" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="offrLingTaalList" msdata:Prefix="mes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="offrLingTaal" msdata:Prefix="mes" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="app1:id" minOccurs="0" />
+                    <xs:element ref="app1:value" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StatutStatuutList" msdata:Prefix="mes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StatutStatuut" msdata:Prefix="mes" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="app1:id" minOccurs="0" />
+                    <xs:element ref="app1:value" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="zoneActionWerkgebiedList" msdata:Prefix="mes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="zoneActionWerkgebied" msdata:Prefix="mes" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="app1:id" minOccurs="0" />
+                    <xs:element ref="app1:value" />
+                    <xs:element ref="app1:parent" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pouvoirAgreantErkenningList" msdata:Prefix="mes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pouvoirAgreantErkenning" msdata:Prefix="mes" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="app1:id" minOccurs="0" />
+                    <xs:element ref="app1:value" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="agrementErkenList" msdata:Prefix="mes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="agrementErken" msdata:Prefix="mes" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="app1:id" minOccurs="0" />
+                    <xs:element ref="app1:pouvoirAgreantErkenning" minOccurs="0" />
+                    <xs:element ref="app1:value" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

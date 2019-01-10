@@ -1,0 +1,294 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="http://psb.bric.brussels/type/bruso/organisation/v1" xmlns:mstns="http://psb.bric.brussels/bruso/messages/organisation/v1" xmlns="http://psb.bric.brussels/type/bruso/organisation/v1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app1="http://psb.bric.brussels/type/bruso/organisation/v1">
+  <xs:import namespace="http://psb.bric.brussels/bruso/messages/organisation/v1" schemaLocation="export.xsd" />
+  <xs:element name="value" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="value_Text" msdata:Ordinal="1">
+        <xs:extension base="xs:string">
+          <xs:attribute name="i18n" form="unqualified" type="xs:string" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="id" type="xs:string" />
+  <xs:element name="FICHE" type="xs:string" />
+  <xs:element name="INFOR" type="xs:string" />
+  <xs:element name="NMOFFNL" type="xs:string" />
+  <xs:element name="NMOFFFR" type="xs:string" />
+  <xs:element name="HTTP_NL" type="xs:string" />
+  <xs:element name="HTTP" type="xs:string" />
+  <xs:element name="ACTIVNL" type="xs:string" />
+  <xs:element name="ACTIVFR" type="xs:string" />
+  <xs:element name="PUBLIEK" type="xs:string" />
+  <xs:element name="BENEF" type="xs:string" />
+  <xs:element name="PERMANNL" type="xs:string" />
+  <xs:element name="PERMANFR" type="xs:string" />
+  <xs:element name="OPMERK" type="xs:string" />
+  <xs:element name="REMARQUE" type="xs:string" />
+  <xs:element name="PM_RP" type="xs:string" />
+  <xs:element name="DOEL" type="xs:string" />
+  <xs:element name="BUT" type="xs:string" />
+  <xs:element name="PUBLIBS" type="xs:string" />
+  <xs:element name="PUBLIMB" type="xs:string" />
+  <xs:element name="BRUSOFR" type="xs:string" />
+  <xs:element name="BRUSONL" type="xs:string" />
+  <xs:element name="CREE" type="xs:string" />
+  <xs:element name="DEEL" type="xs:string" />
+  <xs:element name="ANTENNE" type="xs:string" />
+  <xs:element name="MOTHER" type="xs:string" />
+  <xs:element name="INT_SOC" type="xs:string" />
+  <xs:element name="statutstatuut" type="xs:string" />
+  <xs:element name="LANGSTAT" type="xs:string" />
+  <xs:element name="NMUSENL" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="NMUSENL_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NMUSEFR" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="NMUSEFR_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NMSERVNL" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="NMSERVNL_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NMSERVFR" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="NMSERVFR_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TEL_NL" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="TEL_NL_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TEL" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="TEL_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FAX" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="FAX_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EMAIL_NL" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="EMAIL_NL_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EMAIL" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="EMAIL_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HTTPNL2" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="HTTPNL2_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HTTP2" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="HTTP2_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="URLNL" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="URLNL_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="URLFR" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="URLFR_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TIJDSCHR" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="TIJDSCHR_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="REVUE" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="REVUE_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ERKAND" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="ERKAND_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AGRAUTR" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="AGRAUTR_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OLDNAMNL" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="OLDNAMNL_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OLDNAMFR" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="OLDNAMFR_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FAX_NL" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="FAX_NL_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="addresseAdres">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ADRESNL" type="xs:string" minOccurs="0" />
+        <xs:element name="ADRESFR" type="xs:string" minOccurs="0" />
+        <xs:element name="ADNUM" type="xs:string" minOccurs="0" />
+        <xs:element name="BNUM" type="xs:string" minOccurs="0" />
+        <xs:element name="POSTNL" type="xs:string" minOccurs="0" />
+        <xs:element name="POSTFR" type="xs:string" minOccurs="0" />
+        <xs:element name="ZIP" type="xs:string" minOccurs="0" />
+        <xs:element name="GEMEENTE" type="xs:string" minOccurs="0" />
+        <xs:element name="COMMUNE" type="xs:string" minOccurs="0" />
+        <xs:element name="ADOPM" type="xs:string" minOccurs="0" />
+        <xs:element name="ADREM" type="xs:string" minOccurs="0" />
+        <xs:element name="WIJK" type="xs:string" minOccurs="0" />
+        <xs:element name="QUARTIER" type="xs:string" minOccurs="0" />
+        <xs:element name="STATCODE" type="xs:string" minOccurs="0" />
+        <xs:element name="STATNMNL" type="xs:string" minOccurs="0" />
+        <xs:element name="STATNMFR" type="xs:string" minOccurs="0" />
+        <xs:element name="XCOORD" type="xs:string" minOccurs="0" />
+        <xs:element name="YCOORD" type="xs:string" minOccurs="0" />
+        <xs:element name="WGS84LAT" type="xs:string" minOccurs="0" />
+        <xs:element name="WGS84LON" type="xs:string" minOccurs="0" />
+        <xs:element name="WQ_CODE" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ACCES" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="ACCES_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AANMELD" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="AANMELD_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="offrLingTaalAnb" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="offrLingTaalAnb_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="natOffreHulpwijz" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="natOffreHulpwijz_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="agrementErken" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="agrementErken_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="zoneActionWerkgebied" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="zoneActionWerkgebied_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CATEG" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="CATEG_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="parent" nillable="true">
+    <xs:complexType>
+      <xs:simpleContent msdata:ColumnName="parent_Text" msdata:Ordinal="0">
+        <xs:extension base="xs:string">
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pouvoirAgreantErkenning" type="xs:string" />
+</xs:schema>
